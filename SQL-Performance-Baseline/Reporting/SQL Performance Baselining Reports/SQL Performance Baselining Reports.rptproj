@@ -8,11 +8,11 @@
     <OverwriteDataSources>True</OverwriteDataSources>
     <TargetServerVersion>SSRS2016</TargetServerVersion>
     <Platform>Win32</Platform>
-    <TargetReportFolder>SQL Performance Baselining Reports</TargetReportFolder>
+    <TargetReportFolder>Monitoring/SQL Performance Baselining Reports</TargetReportFolder>
     <TargetDatasetFolder>Datasets</TargetDatasetFolder>
     <TargetDatasourceFolder>Data Sources</TargetDatasourceFolder>
     <TargetReportPartFolder>Report Parts</TargetReportPartFolder>
-    <TargetServerURL>http://localhost:8080/reportserver</TargetServerURL>
+    <TargetServerURL>http://eagle-sql-test.aws.dentsuaegis.de:8080/reportserver</TargetServerURL>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'DebugLocal' ">
     <FullPath>DebugLocal</FullPath>
