@@ -2631,7 +2631,7 @@ ELSE
       <Nullable>true</Nullable>
       <DefaultValue>
         <Values>
-          <Value>=Format(Parameters!Date.Value , "yyyy-MM-dd") &amp; " 00:01:00"</Value>
+          <Value>=Format(Parameters!Date.Value , "yyyy-MM-dd") &amp; " 00:00:01"</Value>
         </Values>
       </DefaultValue>
       <Prompt>StartDate</Prompt>
